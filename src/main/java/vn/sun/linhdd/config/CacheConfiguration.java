@@ -46,6 +46,14 @@ public class CacheConfiguration {
             createCache(cm, vn.sun.linhdd.domain.User.class.getName());
             createCache(cm, vn.sun.linhdd.domain.Authority.class.getName());
             createCache(cm, vn.sun.linhdd.domain.User.class.getName() + ".authorities");
+            createCache(cm, vn.sun.linhdd.domain.Post.class.getName());
+            createCache(cm, vn.sun.linhdd.domain.Country.class.getName());
+            createCache(cm, vn.sun.linhdd.domain.Location.class.getName());
+            createCache(cm, vn.sun.linhdd.domain.Department.class.getName());
+            createCache(cm, vn.sun.linhdd.domain.Task.class.getName());
+            createCache(cm, vn.sun.linhdd.domain.Employee.class.getName());
+            createCache(cm, vn.sun.linhdd.domain.Job.class.getName());
+            createCache(cm, vn.sun.linhdd.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
