@@ -1,0 +1,22 @@
+{
+  "myblogApp": {
+    "post": {
+      "home": {
+        "title": "Posts",
+        "createLabel": "Thêm mới một Post",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Post",
+        "search": "Tìm Post"
+      },
+      "created": "Một Post mới được tạo với định danh {{ param }}",
+      "updated": "Một Post cập nhật với định danh {{ param }}",
+      "deleted": "Một Post đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Post {{ id }}?"
+      },
+      "detail": {
+        "title": "Post"
+      },
+      "regionName": "Region Name"
+    }
+  }
+}
